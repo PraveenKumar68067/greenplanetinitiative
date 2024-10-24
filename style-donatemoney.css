@@ -1,0 +1,15 @@
+img{
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+}
+figcaption
+{
+    color: red;
+    margin-left: 100px;
+}
+form
+{
+    width: 700px;
+    margin-left: 300px;  
+}

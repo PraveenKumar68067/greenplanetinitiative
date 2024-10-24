@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-login.css">
+    <script>
+        function enlargeImage(event) {
+          event.target.style.transform = "scale(1.2)";
+        }
+    
+        function resetImage(event) {
+          event.target.style.transform = "scale(1)";
+        } 
+        document.addEventListener('DOMContentLoaded', function() {
+            alert('Welcome to the login page!');
+        });
+        </script> 
+        
+</head>
+<body>
+    <script>
+        function data()
+        {
+            var a=document.getElementById("name").value;
+            var b=document.getElementById("father-name").value;
+            var c=document.getElementById("mother-name").value;
+            var d=document.getElementById("gender").value;
+            var e=document.getElementById("email").value; 
+            var f=document.getElementById("contact-info").value; 
+            if(a=="" || b=="" || c=="" || d=="" || e==""|| f=="")
+        {
+            alert("All fields are mendatory")
+            return false;
+        }
+        else if(f.length<10||f.length>10)
+        {
+            alert("number should be of ten digits")
+            return false;
+        }
+        else if(isNaN(f))
+        {
+            alert("only numbers allowed")
+            return false;
+        }
+        else{
+            true;
+        }
+        }
+      </script>
+    <header id="appeal">
+        <marquee><p><b>Please &nbsp;&nbsp; respond&nbsp;&nbsp; now.&nbsp;&nbsp; So,&nbsp;&nbsp;We&nbsp;&nbsp; can&nbsp;&nbsp;
+             together&nbsp;&nbsp; save&nbsp;&nbsp; the&nbsp;&nbsp;future&nbsp;&nbsp; by&nbsp;&nbsp; joining&nbsp;&nbsp; hands&nbsp;&nbsp; today.
+            </b></p></marquee>
+    </header>
+    <div id="Project-title">
+    <center><h1 id="Project-name">Green Planet Initiative</h1></center>
+    <div id="navigationbar">
+
+        <ul>
+            <li><a href="Index.html"><div id="navigationbar1">Home</div></a> </li>
+            <li><a href="waste-management.html"><div id="navigationbar2">Waste Management</div></a></li>
+            <li><a href="donate.html"><div id="navigationbar3">Donate Food</div></a></li>
+            <li><a href="request.html"><div id="navigationbar4">Request Food</div></a></li>
+           
+            <li><a href="Aboutus.html"><div id="navigationbar8">About-us</div></a> </li>
+        </ul>
+    </div>
+    </div>
+    <div id="connect-us" >
+        <form  onsubmit="return data()" action="Index.html" method="get">
+            <fieldset>   
+               <img src="sign-in.jpg" alt="missing-image" onmouseover="enlargeImage(event)" onmouseout="resetImage(event)" id="our-signin-image">
+               <h1>Log-in/Sign-in</h1>
+               Name: <input type="text" id="name" placeholder="name" name="myname"  ><br> <br>
+               Father's Name: <input type="text" id="father-name" placeholder="father-name" name="father-name"  ><br> <br>
+               Mother's Name: <input type="text" id="mother-name" placeholder="mother-name" name="mother-name"  ><br> <br>
+               Gender: Male <input type="radio" name="my gender" id="gender">
+               female <input type="radio" name="my gender">
+               Other <input type="radio" name="my gender" > <br> <br>
+               Email: <input type="email"  placeholder="email" id="email"  ><br> <br>
+               Mobile No. : <input type="text" placeholder=" contact no." name="contact-info" > <br><br>
+               Address:<br>
+              <textarea type="text" name="address" rows="7" cols="70"></textarea><br><br>
+            <div>
+                <input type="submit" value="submit now"> &nbsp; &nbsp; &nbsp;
+                <input type="reset" value="reset"><br><br>
+                
+            </div>       
+            </fieldset>
+        </form>
+    </div>
+<footer id="contactus">
+    <h2>Contact Us:</h2>
+    <address>
+        <b>Address:</b> House No.-16 &nbsp;&nbsp; Street No.-9<br>
+        Officers Residence Enclave &nbsp;&nbsp; Bailey Road<br>
+        Rajbanshi Nagar &nbsp;&nbsp;  Patna &nbsp;&nbsp; Bihar &nbsp;&nbsp;  India &nbsp;&nbsp;  800001 <br><br><br>
+        Contact No: 9523****23<br><br><br>
+        Email:<a href="mailto:pk9114052@gmail.com">pk9114052@gmail.com</a>
+    </address>
+    <center>&copy; Owned by Praveen Kumar</center>
+</footer>
+</body>
+</html>

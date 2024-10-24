@@ -1,0 +1,25 @@
+img
+{
+    transition: transform 0.3s ease;
+}
+#our-signin-image
+{
+   padding-left: 300px;
+   float: right;
+    height: 400px;
+    width: 300px;
+    border: 0 solid;
+    border-radius: 15px;
+}
+#connect-us
+{
+    background-color: pink;
+}
+input:focus{
+    background-color: burlywood;
+}
+input[type="submit"]:hover
+{
+    background-color: aquamarine;
+    transform: scale(1.5);
+}

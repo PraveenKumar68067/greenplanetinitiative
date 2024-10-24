@@ -1,0 +1,82 @@
+#donationimage1, #donationimage3
+{
+    float: right;
+    height: 200px;
+    width: 300px;
+    border: 5px solid;
+    border-color: whitesmoke;
+}
+#donationimage2, #donationimage4
+{
+    float: left;
+    height: 200px;
+    width: 300px;
+    border: 5px solid;
+    border-color: whitesmoke;
+}
+#p1
+{
+    padding-top: 40px;
+}
+#p1, #p2, #p3, #p4, #p5, #p6, #p7
+{
+    font-size: 20px;
+    
+    margin-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p3
+{
+    padding-bottom: 110px;
+}
+#donate1
+{
+    background-color: rgb(230, 239, 246);    
+}
+#donate3 img
+{
+   justify-items: center;
+}
+#donationimage5, #donationimage6, #donationimage7, #donationimage8
+{
+    height: 90px;
+    width: 90px;
+    margin-top: 15px;
+}
+#donate3 div
+{
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 460px;
+    width: 300px;
+    background-color: rgb(250, 253, 253);
+    border: 5px solid rgb(221, 221, 221);
+    border-radius: 20px;
+    justify-items: center;
+}
+#donate3
+{
+    padding-top: 100px;
+    background-color: whitesmoke;
+    margin-bottom: 100px;
+    height: 500px;
+    margin-top: 10px;
+}
+#button1
+{
+    font-size: 20px;
+    background-color: rgb(80, 169, 196);
+    color: white;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
+a
+{
+    text-decoration: none;
+}

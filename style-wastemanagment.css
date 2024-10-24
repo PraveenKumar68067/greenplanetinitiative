@@ -1,0 +1,89 @@
+#waste-management-description-detail
+{
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    margin-left: 200px;
+}
+#waste-management-image1
+{
+    width: 300px;
+    transition: transform 0.3s ease;
+    float: right;
+    margin-top: 60px; 
+    margin-right: 6px; 
+    border: solid 3px rgb(226, 242, 250); 
+    border-radius: 10px;
+}
+#waste-management-image2
+{
+    width: 300px;
+    transition: transform 0.3s ease;
+    float: left;
+    margin-top: 60px;
+    margin-left: 6px;
+    border: solid 3px rgb(226, 242, 250); 
+    border-radius: 10px;
+}
+#waste-management-image3
+{
+    width: 300px;
+    transition: transform 0.3s ease;
+    float: right;
+    margin-top: 60px;
+    margin-right: 6px;
+    border: solid 3px rgb(226, 242, 250); 
+    border-radius: 10px;
+}
+#waste-management-image4
+{
+    width: 300px;
+    transition: transform 0.3s ease;
+    float: left;
+    margin-top: 60px; 
+    margin-left: 6px;
+    border: solid 3px rgb(226, 242, 250); 
+    border-radius: 10px;
+}
+#waste-management-image5
+{
+    width: 300px;
+    transition: transform 0.3s ease;
+    float: right;
+    margin-top: 60px;
+    margin-right: 6px; 
+    border: solid 3px rgb(226, 242, 250); 
+    border-radius: 10px;
+}
+#waste-management-image6
+{
+    width: 300px;
+    transition: transform 0.3s ease;
+    float: left; 
+    margin-top: 60px;
+    margin-left: 6px;
+    border: solid 3px rgb(226, 242, 250); 
+    border-radius: 10px;
+}
+#waste-management-description-detail1
+{
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+}
+#waste-management
+{
+    padding-bottom: 35px;
+    background-color: blanchedalmond;
+}
+form
+{
+    width: 700px;
+    margin-left: 350px; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}

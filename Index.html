@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Work</title>
+    <link rel="stylesheet" href="style-index.css">
+    <script>
+        function enlargeImage(event) {
+          event.target.style.transform = "scale(1.2)";
+        }
+    
+        function resetImage(event) {
+          event.target.style.transform = "scale(1)";
+        }
+        function showPopup() {
+          alert("Form submitted successfully! we will reach you very soon.");
+        }
+      </script> 
+</head>
+<body>
+    <header id="appeal">
+        <marquee><p><b>Please &nbsp;&nbsp; respond&nbsp;&nbsp; now.&nbsp;&nbsp; So,&nbsp;&nbsp;We&nbsp;&nbsp; can&nbsp;&nbsp;
+             together&nbsp;&nbsp; save&nbsp;&nbsp; the&nbsp;&nbsp;future&nbsp;&nbsp; by&nbsp;&nbsp; joining&nbsp;&nbsp; hands&nbsp;&nbsp; today.
+            </b></p>
+        </marquee>
+            
+    </header>
+    <div id="Project-title">
+    <center><h1 id="Project-name">Green Planet Initiative</h1></center>
+    <div id="navigationbar">
+        
+        <ul>
+            <li><a href="Index.html"><div id="navigationbar1">Home</div></a> </li>
+            <li><a href="waste-management.html"><div id="navigationbar2">Waste Management</div></a></li>
+            <li><a href="donate.html"><div id="navigationbar3">Donate Food</div></a></li>
+            <li><a href="request.html"><div id="navigationbar4">Request Food</div></a></li>
+            
+            <li><a href="Aboutus.html"><div id="navigationbar8">About-us</div></a> </li>
+            <li><button id="button1" type="submit"><a href="login.html" alt="missing" >Login/Sign-up</a></button></li>
+        </ul>
+    </div>
+    </div>  
+<div id="our-mission">
+    <img src="go-green.jpeg" alt="missing-image" onmouseover="enlargeImage(event)" onmouseout="resetImage(event)" id="our-mission-image"  >
+    <div id="our-mission-description">
+       <center><h2 id="our-mission-description-title">Our Mission</h2></center> 
+       <center><pre><p id="our-mission-description-detail">
+        "Reducing hunger, one plate at a time."
+        "Nourishing communities, reducing waste."
+        "A world without food waste, a world without hunger."</p></pre></center>
+    </div><br>
+    <a href="mission.html"><button type="submit">More</button></a>
+</div>
+<div id="connect-us" >
+    <form  onsubmit="showPopup()">
+        <fieldset>
+           <h1>Connect With Us</h1>
+           Name: <input type="text" id="name" placeholder="name" name="myname" required ><br> <br>
+           Gender: Male <input type="radio" name="my gender" >
+           female <input type="radio" name="my gender">
+           Other <input type="radio" name="my gender" required> <br> <br>
+           Email: <input type="email"  placeholder="email" required ><br> <br>
+           Mobile No. : <input type="text" placeholder="contact no." name="contact-info" required> <br><br>
+           Address:<br>
+          <textarea type="text" name="address" rows="7" cols="70"></textarea><br><br>
+          Text-area<br>
+          <textarea name="textarea" rows="7" cols="70"></textarea><br><br> 
+        <div>
+            <input type="submit" value="submit now"> &nbsp; &nbsp; &nbsp;
+            <input type="reset" value="reset"><br><br>
+            
+        </div>       
+        </fieldset>
+    </form>
+</div>
+<footer id="contactus">
+    <h2>Contact Us:</h2>
+    <address>
+        <b>Address:</b> House No.-16 &nbsp;&nbsp; Street No.-9<br>
+        Officers Residence Enclave &nbsp;&nbsp; Bailey Road<br>
+        Rajbanshi Nagar &nbsp;&nbsp;  Patna &nbsp;&nbsp; Bihar &nbsp;&nbsp;  India &nbsp;&nbsp;  800001 <br><br><br>
+        Contact No: 9523****23<br><br><br>
+        Email:<a href="mailto:pk9114052@gmail.com">pk9114052@gmail.com</a>
+    </address>
+    <center>&copy; Owned by Praveen Kumar</center>
+</footer>
+</body>
+</html>

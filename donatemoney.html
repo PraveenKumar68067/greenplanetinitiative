@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Work</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-donatemoney.css">
+    <script>
+        function showPopup() {
+          alert("Form submitted successfully! Thank you for Monetry assistance. May god bless you");
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            alert('Welcome to the Money Donation page');
+        });
+      </script>
+</head>
+<body>
+    <header id="appeal">
+        <marquee><p><b>Please &nbsp;&nbsp; respond&nbsp;&nbsp; now.&nbsp;&nbsp; So,&nbsp;&nbsp;We&nbsp;&nbsp; can&nbsp;&nbsp;
+             together&nbsp;&nbsp; save&nbsp;&nbsp; the&nbsp;&nbsp;future&nbsp;&nbsp; by&nbsp;&nbsp; joining&nbsp;&nbsp; hands&nbsp;&nbsp; today.
+            </b></p>
+        </marquee>
+            
+    </header>
+    <div id="Project-title">
+    <center><h1 id="Project-name">Green Planet Initiative</h1></center>
+    <div id="navigationbar">
+        
+        <ul>
+            <li><a href="Index.html"><div id="navigationbar1">Home</div></a> </li>
+            <li><a href="waste-management.html"><div id="navigationbar2">Waste Management</div></a></li>
+            <li><a href="donate.html"><div id="navigationbar3">Donate Food</div></a></li>
+            <li><a href="request.html"><div id="navigationbar4">Request Food</div></a></li>
+           
+            <li><a href="Aboutus.html"><div id="navigationbar8">About-us</div></a> </li>
+            <li><button id="button1" type="submit"><a href="login.html" alt="missing" >Login/Sign-up</a></button></li>
+        </ul>
+    </div>
+    </div>
+    <div id="connect-us" >
+        <form  onsubmit="showPopup()">
+            <fieldset>
+               <center><h1>Donate Money</h1></center>
+               Name: <input type="text" id="name" placeholder="name" name="myname" required ><br> <br>
+               Father's Name: <input type="text" id="father-name" placeholder="father-name" name="father-name" required ><br> <br>
+               Mother's Name: <input type="text" id="mother-name" placeholder="mother-name" name="mother-name" required ><br> <br>
+               Gender: Male <input type="radio" name="my gender" >
+               female <input type="radio" name="my gender">
+               Other <input type="radio" name="my gender" required> <br> <br>
+               Email: <input type="email"  placeholder="email" required ><br> <br>
+               Mobile No. : <input type="text" placeholder=" contact no." name="contact-info" required> <br><br>
+               Address:<br>
+              <textarea type="text" name="address" rows="7" cols="70"></textarea><br><br>
+              Amount: <input type="number" id="amount" placeholder="amount" name="amount" required ><br> <br>
+              <img src="img\QR Code.jpeg" alt="QR Code missing"><figcaption>please scan and make payment</figcaption>
+              Reference No.: <input type="text" id="Reference-No" placeholder="Reference-No" name="Reference-No" required ><br> <br>
+              Transaction Id: <input type="text" id="Transaction-id" placeholder="Transaction-id" name="Transaction-id" required ><br> <br>
+            <div>
+                <input type="submit" value="submit now"> &nbsp; &nbsp; &nbsp;
+                <input type="reset" value="reset"><br><br>    
+            </div>       
+            </fieldset>
+        </form>
+    <footer id="contactus">
+        <h2>Contact Us:</h2>
+        <address>
+            <b>Address:</b> House No.-16 &nbsp;&nbsp; Street No.-9<br>
+            Officers Residence Enclave &nbsp;&nbsp; Bailey Road<br>
+            Rajbanshi Nagar &nbsp;&nbsp;  Patna &nbsp;&nbsp; Bihar &nbsp;&nbsp;  India &nbsp;&nbsp;  800001 <br><br><br>
+            Contact No: 9523****23<br><br><br>
+            Email:<a href="mailto:pk9114052@gmail.com">pk9114052@gmail.com</a>
+        </address>
+        <center>&copy; Owned by Praveen Kumar</center>
+    </footer>
+</body>
+</html>

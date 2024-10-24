@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Work</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        form
+           {
+            width: 700px;
+            margin-left: 300px;  
+           }
+    </style>
+    <script>
+        function showPopup() {
+          alert("Form submitted successfully! Thank you for your help. We will collect it as soon as possible.");
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            alert('Welcome to the Donation Page');
+        });
+      </script>
+</head>
+<body>
+    <header id="appeal">
+        <marquee><p><b>Please &nbsp;&nbsp; respond&nbsp;&nbsp; now.&nbsp;&nbsp; So,&nbsp;&nbsp;We&nbsp;&nbsp; can&nbsp;&nbsp;
+             together&nbsp;&nbsp; save&nbsp;&nbsp; the&nbsp;&nbsp;future&nbsp;&nbsp; by&nbsp;&nbsp; joining&nbsp;&nbsp; hands&nbsp;&nbsp; today.
+            </b></p>
+        </marquee>
+            
+    </header>
+    <div id="Project-title">
+    <center><h1 id="Project-name">Green Planet Initiative</h1></center>
+    <div id="navigationbar">
+        
+        <ul>
+            <li><a href="Index.html"><div id="navigationbar1">Home</div></a> </li>
+            <li><a href="waste-management.html"><div id="navigationbar2">Waste Management</div></a></li>
+            <li><a href="donate.html"><div id="navigationbar3">Donate Food</div></a></li>
+            <li><a href="request.html"><div id="navigationbar4">Request Food</div></a></li>
+           
+            <li><a href="Aboutus.html"><div id="navigationbar8">About-us</div></a> </li>
+            <li><button id="button1" type="submit"><a href="login.html" alt="missing" >Login/Sign-up</a></button></li>
+        </ul>
+    </div>
+    </div>
+    <div id="connect-us" >
+        <form  onsubmit="showPopup()">
+            <fieldset>   
+               <h1>Donate-items</h1>
+               Name: <input type="text" id="name" placeholder="name" name="myname" required ><br> <br>
+               Father's Name: <input type="text" id="father-name" placeholder="father-name" name="father-name" required ><br> <br>
+               Mother's Name: <input type="text" id="mother-name" placeholder="mother-name" name="mother-name" required ><br> <br>
+               Gender: Male <input type="radio" name="my gender" >
+               female <input type="radio" name="my gender">
+               Other <input type="radio" name="my gender" required> <br> <br>
+               Email: <input type="email"  placeholder="email" required ><br> <br>
+               Mobile No. : <input type="text" placeholder=" contact no." name="contact-info" required> <br><br>
+               Address:<br>
+               <textarea type="text" name="address" rows="7" cols="70"></textarea><br><br>
+               <label for="items">what you want to donate:</label>
+               <select  id="items" name="donated-items" required>
+               <option>choose</option>
+               <option>Food</option>
+               <option>Books</option>
+               <option>Clothes</option>
+               <option>stationary</option>
+               <option>gadgets</option>
+               <option>Others</option>
+               </select><br> <br>
+               Details of item:<br>
+               <textarea type="text" name="details-of-items" rows="7" cols="70" required></textarea><br><br>
+            <div>
+                <input type="submit" value="submit now"> &nbsp; &nbsp; &nbsp;
+                <input type="reset" value="reset"><br><br>    
+            </div>       
+            </fieldset>
+        </form>
+    <footer id="contactus">
+        <h2>Contact Us:</h2>
+        <address>
+            <b>Address:</b> House No.-16 &nbsp;&nbsp; Street No.-9<br>
+            Officers Residence Enclave &nbsp;&nbsp; Bailey Road<br>
+            Rajbanshi Nagar &nbsp;&nbsp;  Patna &nbsp;&nbsp; Bihar &nbsp;&nbsp;  India &nbsp;&nbsp;  800001 <br><br><br>
+            Contact No: 9523****23<br><br><br>
+            Email:<a href="mailto:pk9114052@gmail.com">pk9114052@gmail.com</a>
+        </address>
+        <center>&copy; Owned by Praveen Kumar</center>
+    </footer>
+</body>
+</html>
