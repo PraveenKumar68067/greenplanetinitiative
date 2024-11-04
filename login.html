@@ -32,17 +32,17 @@
             var f=document.getElementById("contact-info").value; 
             if(a=="" || b=="" || c=="" || d=="" || e==""|| f=="")
         {
-            alert("All fields are mendatory")
+            alert("All fields are mendatory");
             return false;
         }
         else if(f.length<10||f.length>10)
         {
-            alert("number should be of ten digits")
+            alert("number should be of ten digits");
             return false;
         }
         else if(isNaN(f))
         {
-            alert("only numbers allowed")
+            alert("only numbers allowed");
             return false;
         }
         else{
@@ -81,7 +81,7 @@
                female <input type="radio" name="my gender">
                Other <input type="radio" name="my gender" > <br> <br>
                Email: <input type="email"  placeholder="email" id="email"  ><br> <br>
-               Mobile No. : <input type="text" placeholder=" contact no." name="contact-info" > <br><br>
+               Mobile No. : <input type="text" placeholder=" contact no." name="contact-info" id="contact-info" > <br><br>
                Address:<br>
               <textarea type="text" name="address" rows="7" cols="70"></textarea><br><br>
             <div>
